@@ -13,7 +13,8 @@
 html, body { height: auto; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; }
 h2 { font-size: 140%; margin-bottom: .5em; }
-p { margin: 1em 0; }
+p { margin: 1em 0;
+   text-indent: 25px; }
 
 body {
    background-color: #F5F5F5;
@@ -140,6 +141,7 @@ blockquote p {
 article {
    overflow: auto;
    word-wrap: break-word;
+   text-indent: 30px;
 }
 
 article ul, article ol {
