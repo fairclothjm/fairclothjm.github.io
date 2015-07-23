@@ -22,7 +22,7 @@ body {
    background-opacity: 0.1;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-position: top center;
+   background-position: center;
    font: 15px Arial, Helvetica, sans-serif;
    font-size: small;
    -webkit-font-smoothing: antialiased;
