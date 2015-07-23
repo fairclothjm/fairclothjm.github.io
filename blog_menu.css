@@ -22,15 +22,16 @@ body{
 
 div.main {
     vertical-align: center;
-    text-align: center;
+    text-align: left;
     position: fixed;
     margin-left: 280px;
     width: 80%;
     top: 15%;
+    padding-left: 400px;
 }
 
-div.main, #links, h1, h2, p {
-  display: inline;
+#links{
+    text-align: center;
 }
 
 #links{
