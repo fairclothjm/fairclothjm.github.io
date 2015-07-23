@@ -75,6 +75,14 @@ a:hover {
   padding: 20px;
 }
 
+.divider{
+      background-color: #424242;
+      height: 4px;
+      width: 500px;
+      position: relative;
+      border-radius: 2px;
+}
+
 /* Rounded corners, aligned, etc. */
 img {
     border-radius: 4px;
