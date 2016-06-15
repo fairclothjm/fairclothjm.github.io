@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800&subset=latin,latin-ext);
+
+/* Some assumptions */
+* {
+   margin: 0;
+   padding: 0;
+
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+html, body { height: auto; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+h2 { font-size: 140%; margin-bottom: .5em; }
+p { margin: 1em 0;
+   text-indent: 25px; }
+
+body {
+   background-color: #F5F5F5;
+   background-image: url("images/logic_gate2.jpg");
+   background-opacity: 0.1;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   font: 15px Arial, Helvetica, sans-serif;
+   font-size: small;
+   -webkit-font-smoothing: antialiased;
+   text-align: center;
+}
+
+/* Gentle links */
+a { color: #3498DB; text-decoration: none; }
+a:hover { color: #2980B9; }
+
+/* Don't display date if screen is small */
+@media only screen and (max-width: 400px) {
+   .posts li span { display: none; }
+}
+
+main {
+   font-size: 115%;
+   text-align: left;
+   margin: 2em auto 0.5em;
+   line-height: 1.5em;
+   max-width: 42em;
+   padding-left: 18px;
+   padding-right: 18px;
+}
+
+header a {
+   font-weight: bold;
+   text-decoration: none;
+}
+
+/* the website's name on the header */
+.title {
+   display: inline-block;
+   line-height: 0.5em;
+   margin-top: .4em;
+}
+
+.title a {
+   color: #e74c3c;
+}
+
+.title a:hover {
+   color: #000;
+}
+
+.meta {
+   color: #aaa;
+}
+
+.divider{
+      background-color:  #424242;
+      height: 4px;
+      width: auto;
+      position: relative;
+      border-radius: 2px;
+      margin-bottom: 10px;
+}
+
+
+
+article {
+   overflow: auto;
+   word-wrap: break-word;
+   text-indent: 30px;
+}
+
+article ul, article ol {
+   margin-left: 1.35em;
+   margin-bottom: 0.7em;
+}
+
+/* Rounded corners, aligned, etc. */
+article img {
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 100%;
+   vertical-align: middle;
+   page-break-inside: avoid;
+}
+
+footer {
+   height: 2.5em;
+}
+
+footer #date {
+   float: right;
+}
+
+footer #return,
+footer #date {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+
