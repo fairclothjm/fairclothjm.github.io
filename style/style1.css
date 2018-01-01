@@ -65,7 +65,16 @@ a:hover {
   animation: circles-spin infinite 20s linear;
 }
 
+#circles:hover {
+  animation: circles-spin-counter infinite 20s linear;
+}
+
 @keyframes circles-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+@keyframes circles-spin-counter {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
 }
