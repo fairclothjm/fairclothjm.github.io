@@ -2,7 +2,6 @@
 /* CSS Document */
 body{
   font-family: 'Courier New', Courier, Lucida Console, Monospace;
-  background-color:#011627;
 }
 
 *{
@@ -17,37 +16,28 @@ body{
   margin-top: 20%;
 }
 
-#links {
+.links {
   display: inline;
-  color: #fdfffc;
 }
 
 h1 {
   font-size: 24px;
-  color: #fdfffc;
 }
 
 h2 {
   font-size: 14px;
-  color: #2ec4b6;
 }
 
 p {
   font-size: 11px;
   margin-left: 20px;
-  color: #808080;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-  color: #ff9f1c;
   margin: 10px;
   text-decoration: none;
   font-weight: bold;
-}
-
-a:hover {
-  color: #e71d36;
 }
 
 .title {
@@ -59,22 +49,3 @@ a:hover {
   font-size: 1.25em;
 }
 
-#circles {
-  margin: auto;
-  width: 10%;
-  animation: circles-spin infinite 20s linear;
-}
-
-#circles:hover {
-  animation: circles-spin-counter infinite 20s linear;
-}
-
-@keyframes circles-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes circles-spin-counter {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0deg); }
-}
